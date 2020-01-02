@@ -6,3 +6,4 @@ class Task < ApplicationRecord
     errors.add(:name, 'カンマは含めることができません') if name&.include?(',')
   end
 end
+
